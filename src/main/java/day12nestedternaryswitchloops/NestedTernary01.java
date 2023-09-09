@@ -12,5 +12,17 @@ public class NestedTernary01 {
         String result = year % 100 == 0 ? (year % 400 == 0 ? "Leap" : "Not Leap") : (year % 4 == 0 ? "Leap" : "Not Leap ");
 
         System.out.println(result);
+
+
+        /*
+         int year =1600;
+
+        // c ? (c ? T : F) : (c ? T : F)
+        //T          //F
+        String result = year%100==0 ? (year%400==0 ? "Leap" : "Not leap") : (year%4==0 ? "Leap" : "Not leap");
+
+        System.out.println("result = " + result);
+
+         */
     }
 }
